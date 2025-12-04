@@ -30,13 +30,13 @@ configurar
 
 comenzar a usar NetGuard Pro rápidamente
 
-🏗️ Arquitectura y Tecnologías
-🧩 Visión General
+# 🏗️ Arquitectura y Tecnologías
+## 🧩 Visión General
 
 NetGuard Pro se construye como una aplicación modular sin base de datos interna.
 Toda la información se procesa en tiempo real y se almacena en archivos de configuración ligeros (JSON/YAML) según sea necesario.
 
-🛠️ Componentes Principales
+## 🛠️ Componentes Principales
 
 Motor de monitoreo de tráfico
 
@@ -50,14 +50,14 @@ Interfaz Web intuitiva
 
 (Opcional: Agregar diagrama aquí)
 
-🌐 Integraciones Compatibles
+## 🌐 Integraciones Compatibles
 
 Nube: AWS, Azure, Google Cloud
 
 Terceros: Slack, PagerDuty, Splunk
 
-🚀 Características Principales
-🔧 Optimización de la Red
+# 🚀 Características Principales
+## 🔧 Optimización de la Red
 
 Detección automática de cuellos de botella
 
@@ -65,7 +65,7 @@ Ajuste dinámico de ancho de banda
 
 Monitoreo continuo de rendimiento
 
-🔐 Seguridad Avanzada
+## 🔐 Seguridad Avanzada
 
 Firewall integrado
 
@@ -73,7 +73,7 @@ Sistema de detección de amenazas en tiempo real
 
 Cifrado TLS 1.3
 
-📈 Escalabilidad Instantánea
+## 📈 Escalabilidad Instantánea
 
 Soporte desde 1 hasta cientos de servidores
 
@@ -81,7 +81,7 @@ Integración con la nube
 
 Balanceo automático de carga
 
-🖥️ Interfaz para Todo Tipo de Usuario
+## 🖥️ Interfaz para Todo Tipo de Usuario
 
 Panel intuitivo y fácil de usar
 
@@ -89,24 +89,11 @@ Widgets y alertas personalizables
 
 Modo “Guía rápida” para usuarios nuevos
 
-🔌 API para Automatización
+## 🔌 API para Automatización
 
 Ideal para integraciones corporativas, DevOps y flujos CI/CD.
 
-📁 Estructura del Proyecto
-/netguard-pro
-  /src
-    /core              # Motor principal
-    /network           # Monitoreo y optimización
-    /security          # Firewall, IDS
-    /api               # API REST
-    /ui                # Interfaz web
-  /config              # Archivos JSON/YAML
-  /scripts             # Scripts de instalación y despliegue
-  /docs                # Documentación extendida
-  /tests               # Pruebas
-
-⚙️ Requisitos del Sistema
+## ⚙️ Requisitos del Sistema
 Sistemas Operativos
 
 Windows Server 2016/2019
@@ -124,8 +111,8 @@ Hardware
 | Disco   | 500 GB            | 1 TB SSD          |
 | Red     | 1 Gbps            | 10 Gbps           |
 
-🔧 Instalación (Usuarios Nuevos y Administradores)
-1️⃣ Descargar
+## 🔧 Instalación (Usuarios Nuevos y Administradores)
+# 1️⃣ Descargar
 
 Visita www.netguardsolutions.com
 
@@ -135,7 +122,7 @@ Elige tu sistema operativo
 
 Descarga el instalador
 
-2️⃣ Instalar
+# 2️⃣ Instalar
 
 Windows: doble clic en el instalador → siguiente → terminar
 
@@ -145,7 +132,7 @@ sudo ./netguard-installer.sh
 
 macOS: arrastrar a Aplicaciones
 
-3️⃣ Primer Inicio
+# 3️⃣ Primer Inicio
 
 Al abrir la app verás un asistente paso a paso que te guiará en:
 
@@ -157,7 +144,7 @@ elegir modo de optimización
 
 crear tu usuario administrador
 
-4️⃣ Activar Licencia
+# 4️⃣ Activar Licencia
 
 En pantalla tendrás dos opciones:
 
@@ -165,11 +152,11 @@ Ingresar clave de licencia
 
 O iniciar una prueba gratuita de 30 días
 
-5️⃣ ¡Listo!
+# 5️⃣ ¡Listo!
 
 La aplicación abrirá el panel principal mostrando tu red en vivo.
 
-▶️ Ejecución del Proyecto
+## ▶️ Ejecución del Proyecto
 Linux / macOS
 sudo systemctl start netguard
 sudo systemctl status netguard
@@ -180,7 +167,7 @@ Abrir NetGuard Pro desde el menú Inicio
 
 O iniciar servicio desde services.msc
 
-Pruebas
+## 🧪 Pruebas
 ./scripts/run-tests.sh
 
 Incluye:
@@ -191,7 +178,7 @@ Pruebas de seguridad
 
 Pruebas de optimización automática
 
-🔄 CI/CD
+## 🔄 CI/CD
 
 Modelos de ramas: main, dev, release
 
@@ -205,13 +192,13 @@ análisis estático
 
 escaneo de seguridad
 
-📦 Despliegue
+## 📦 Despliegue
 ./scripts/deploy.sh --env=prod
 
 Rollback
 ./scripts/rollback.sh
 
-🔐 Seguridad
+## 🔐 Seguridad
 
 Cifrado TLS 1.3
 
@@ -219,8 +206,8 @@ Gestión de secretos mediante archivos encriptados
 
 Logs de seguridad accesibles desde el panel o sistemas externos
 
-🛠️ Resolución de Problemas (Troubleshooting)
-No aparece tráfico en el panel
+## 🛠️ Resolución de Problemas (Troubleshooting)
+# No aparece tráfico en el panel
 
 Verificar permisos
 
@@ -229,20 +216,20 @@ Confirmar que NetGuard Pro tiene acceso a la interfaz de red
 Revisar servicio:
 sudo systemctl status netguard
 
-Problemas de licencia
+# Problemas de licencia
 
 Revisar conexión a internet
 
 Asegurar que la clave no tiene espacios extras
 
-Rendimiento bajo
+# Rendimiento bajo
 
 Confirmar que el servidor cumple requisitos
 
 Revisar carga de CPU y red
 
-🌍 Caso de Uso del Mundo Real (Ejemplo)
-Empresa: DataCom Finance – Red Híbrida con 12 Servidores
+## 🌍 Caso de Uso del Mundo Real
+# Empresa: DataCom Finance – Red Híbrida con 12 Servidores
 
 Problema:
 La empresa sufría caídas intermitentes en aplicaciones críticas debido a cuellos de botella no identificados.
@@ -269,7 +256,7 @@ Tiempo de respuesta del equipo de TI mejoró gracias a las alertas
 
 Este tipo de implementación es común en empresas medianas y grandes que buscan estabilidad y visibilidad total de su red.
 
-📚 Documentación Adicional
+## 📚 Documentación Adicional
 
 API Docs
 
@@ -279,7 +266,7 @@ Manual técnico del administrador
 
 Integraciones (AWS, Slack, etc.)
 
-🤝 Contribuciones
+## 🤝 Contribuciones
 
 Crear un branch desde dev
 
@@ -287,7 +274,7 @@ Seguir las normas de estilo
 
 Abrir un Pull Request con descripción detallada
 
-🧩 Roadmap
+## 🧩 Roadmap
 
 Dashboard móvil
 
@@ -295,11 +282,11 @@ Sugerencias predictivas basadas en IA
 
 Nuevas integraciones con herramientas de seguridad
 
-🛡️ Licencia
+## 🛡️ Licencia
 
 NetGuard Pro es software propietario de NetGuard Solutions.
 
-👥 Empresa y Contacto
+## 👥 Empresa y Contacto
 
 NetGuard Solutions
 Proveedor líder en optimización y seguridad de redes empresariales.
